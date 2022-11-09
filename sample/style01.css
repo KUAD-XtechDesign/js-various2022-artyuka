@@ -35,7 +35,7 @@ html {
     top: 0;
     display: block;
     background-color: #8a8;
-    background-image: url(http://ksk-soft.com/css_labo/dimg/orengeFlower.jpg);
+    background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/redsugar201025932.jpg?d=1420);
     background-size: cover;
     -webkit-transform-origin: center center 0;
     -webkit-transform: translateZ(-1px) scale(2);
@@ -127,3 +127,19 @@ html {
 .button001 a:hover:after {
     border-color: #FFF;
 }
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  }
+  
+  @keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
