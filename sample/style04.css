@@ -1,0 +1,16 @@
+
+
+.img-object-fit-radius{
+    padding:0 !important;
+  }
+  .img-object-fit-radius img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius:50%;
+  }
+ 
+  .under {
+    background: linear-gradient(transparent 50%, #a8eaff 50%);
+  }
+  
