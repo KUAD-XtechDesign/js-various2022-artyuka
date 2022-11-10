@@ -59,6 +59,7 @@ html,body{
     background-image:url("images/IMG_2022.JPG");
     background-repeat: no-repeat;
     background-size: 140%;
+    background-position: 50% 30%;
     border-radius: 90%;
     padding-top: 30%;
     width: 30%;
