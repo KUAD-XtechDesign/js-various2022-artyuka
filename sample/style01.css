@@ -3,7 +3,7 @@ html {
     overflow: hidden;
   }
   body {
-    color: #fff;
+    color: rgb(69, 69, 69);
     margin:0;
     padding:0;
     -webkit-perspective: 1px;
@@ -52,10 +52,10 @@ html {
     padding: 1em 0;
   }
   header p {
-    background-color: hsla(0, 0%, 100%,0.1);
+    background-color: rgba(224, 224, 224, 0.1);
   }
   main {
-    background-color: hsl(0, 0%, 19%);
+    background-color: hsl(0, 0%, 100%);
     line-height: 1.7;
     max-width: 32em;
     padding: 10% calc(50% - 16em) 35%;
@@ -67,7 +67,7 @@ html {
  
   
   .flex_test-box {
-    background-color: rgb(0, 0, 0);     /* 背景色指定 */
+    background-color: rgb(234, 241, 255);     /* 背景色指定 */
     padding:  5px;             /* 余白指定 */
     display: flex;              /* フレックスボックスにする */
     align-items:stretch;        /* 縦の位置指定 */
@@ -82,15 +82,15 @@ html {
 }
  
 .flex_test-item:nth-child(1) {
-    background-color:  #676767; /* 背景色指定 */
+    background-color:  #bac2e4; /* 背景色指定 */
 }
  
 .flex_test-item:nth-child(2) {
-    background-color:  #676767; /* 背景色指定 */
+    background-color:  #bac2e4; /* 背景色指定 */
 }
  
 .flex_test-item:nth-child(3) {
-    background-color: #676767; /* 背景色指定 */
+    background-color: #bac2e4; /* 背景色指定 */
 }
 /* 001 */
 .button001 a {
@@ -108,7 +108,7 @@ html {
     font-weight: 500;
 }
 .button001 a:hover {
-    background: #313131;
+    background: #bdd6f8;
     color: #FFF;
 }
 .button001 a:after {
