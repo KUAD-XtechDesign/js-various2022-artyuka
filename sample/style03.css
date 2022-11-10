@@ -37,11 +37,11 @@ p{
 }
 .cp_h1title:before {
 	border-left: solid 2px #FF7043;
-	left: 10;
+	left: 0;
 }
 .cp_h1title:after {
 	border-right: solid 2px #FF7043;
-	right: 10;
+	right: 0;
 }
 html,body{
     height: 100%;
