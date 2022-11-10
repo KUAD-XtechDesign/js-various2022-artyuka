@@ -1,0 +1,178 @@
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    color: rgb(69, 69, 69);
+    margin:0;
+    padding:0;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  header {
+    box-sizing: border-box;
+    min-height: 40vw;
+    padding: 30vw 0 5vw;
+    position: relative;
+    -webkit-transform-style: inherit;
+    transform-style: inherit;
+    width: 100vw;
+  }
+  header, header:before {
+    background: 50% 50% / cover;
+  }
+  header::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-color: #8a8;
+    background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/redsugar201025932.jpg?d=1420);
+    background-size: cover;
+    -webkit-transform-origin: center center 0;
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+  }
+  header * {
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+  }
+  header p {
+    background-color: rgba(224, 224, 224, 0.1);
+  }
+  main {
+    background-color: hsl(0, 0%, 100%);
+    line-height: 1.7;
+    max-width: 32em;
+    padding: 10% calc(50% - 16em) 35%;
+    position: relative;
+    z-index: 2;
+    
+    
+  }
+ 
+  
+  .flex_test-box {
+    background-color: rgb(234, 241, 255);     /* 背景色指定 */
+    padding:  5px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+    align-items:stretch;        /* 縦の位置指定 */
+}
+ 
+.flex_test-item {
+    padding: 10px;
+    color:  #fff;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    width: 50%;                 /* 幅指定 */
+}
+ 
+.flex_test-item:nth-child(1) {
+    background-color:  #bac2e4; /* 背景色指定 */
+}
+ 
+.flex_test-item:nth-child(2) {
+    background-color:  #bac2e4; /* 背景色指定 */
+}
+ 
+.flex_test-item:nth-child(3) {
+    background-color: #bac2e4; /* 背景色指定 */
+}
+/* 001 */
+.button001 a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button001 a:hover {
+    background: #bdd6f8;
+    color: #FFF;
+}
+.button001 a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+.button001 a:hover:after {
+    border-color: #FFF;
+}
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  }
+  
+  @keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  .c-btn,
+.c-bnr,
+.c-txt {
+  cursor: pointer;
+  transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+ 
+ ボタン基本コード
+.c-btn {
+  background: #ff701e;
+  border: 2px solid #ff701e;
+  border-radius: 60px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  max-width: 300px;
+  padding: 15px 40px;
+  text-align: center;
+}
+
+ 
+/* Zoom In #1 */
+.hover01 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+ 
