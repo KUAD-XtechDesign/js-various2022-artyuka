@@ -12,8 +12,8 @@ body {
 }
 
 .distorted-circle {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50% 70% 50% 80%; /* 左上、右上、右下、左下 */
   background: #FF5252;
 }
@@ -37,11 +37,11 @@ p{
 }
 .cp_h1title:before {
 	border-left: solid 2px #FF7043;
-	left: 0;
+	left: 10;
 }
 .cp_h1title:after {
 	border-right: solid 2px #FF7043;
-	right: 0;
+	right: 10;
 }
 html,body{
     height: 100%;
@@ -58,8 +58,8 @@ html,body{
 .circle{
     background-color: #7fcce3;
     border-radius: 90%;
-    padding-top: 50%;
-    width: 50%;
+    padding-top: 30%;
+    width: 30%;
   
     animation-name: puyopuyo;
     animation-duration: 20.0s;
