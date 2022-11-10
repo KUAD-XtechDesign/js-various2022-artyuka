@@ -4,20 +4,6 @@ body {
   padding: 0;
 }
 
-.container {
-  margin: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.distorted-circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50% 70% 50% 80%; /* 左上、右上、右下、左下 */
-  background: #52b4ff;
-}
-
 
 
 html,body{
@@ -195,4 +181,53 @@ html,body{
   ._a a:hover {
     color: #ffffff;
     background-position: -100% 0;
+  }
+  /* BOXデザイン010 */
+.div_design010 {
+    display: inline-block;
+    width: 450px;
+  }
+  
+  .div_design010 .div_design010_inner {
+    margin: 1rem;
+  }
+  
+  .div_design010 .div_design010_inner .div_design010_contents {
+    background: #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  .div_design010 .div_design010_inner .div_design010_contents img {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .div_design010 .div_design010_inner .div_design010_contents p {
+    font-size: 1rem;
+    width: auto;
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .div_design010 .div_design010_inner:nth-of-type(2n) .div_design010_contents {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
